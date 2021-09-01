@@ -64,7 +64,7 @@ public class Main {
         public Box(){
             this.fruits= new ArrayList<>();
         }
-
+        //
         public void addFruit(int num){
             fruitCount += num;
         }
