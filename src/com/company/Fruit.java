@@ -1,14 +1,19 @@
 package com.company;
 
-abstract public class Fruit {
-    private final double count;
+public abstract class Fruit {
+    private int count;
 
-    protected Fruit(double count) {
+
+    protected Fruit(int count) {
         this.count = count;
     }
+
     public double getCount(){
      return count;
+    }public int getFruitCount(){
+        return count;
     }
+
 }
 
 
